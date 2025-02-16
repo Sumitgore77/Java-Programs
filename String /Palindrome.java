@@ -1,4 +1,3 @@
-import java.util.*;
 public class StringTOChar{
 
   public static void main(String x[])
