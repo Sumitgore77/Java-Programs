@@ -5,11 +5,14 @@ public class StringTOChar{
   {
     String str="MY name is Sumit";
 
-    char ch[]=str.toCharArray();
+    String rev=str.reverse();
 
-    for(int i=0; i<ch;i++)
-      {
-          System.out.println(ch[i]);
-      }
+    if(str==rev)
+    {  
+        System.out.println("String is Palindrom");
+    }
+    else{
+        System.out.println("String is not Palindrom");
+    }
   }
 }
